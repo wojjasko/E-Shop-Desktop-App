@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="tx\cart.txt" />
+    <None Remove="tx\ps5.txt" />
+    <None Remove="tx\xss.txt" />
+    <None Remove="tx\xsx.txt" />
+    <None Remove="zdj\cart.jpg" />
+    <None Remove="zdj\p.jpg" />
+    <None Remove="zdj\xss.jpg" />
+    <None Remove="zdj\xsx.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="tx\ps5.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="tx\xss.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="tx\xsx.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="tx\cart.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="zdj\cart.jpg" />
+    <Resource Include="zdj\p.jpg" />
+    <Resource Include="zdj\xss.jpg" />
+    <Resource Include="zdj\xsx.jpg" />
+  </ItemGroup>
+
+</Project>
