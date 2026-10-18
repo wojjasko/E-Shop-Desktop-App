@@ -8,7 +8,7 @@ An e-commerce desktop application built with WPF, enabling product browsing, sho
 * **User Interface:** Intuitive UI with navigation between products (Previous/Next).
 
 ## 🛠 Technologies
-* **Język:** C#
+* **Language:** C#
 * **Framework:** WPF (.NET)
 * **UI/UX:** XAML (Styles, Data Binding)
 
