@@ -1,18 +1,18 @@
 # 🛒 E-Shop Desktop App (WPF & C#)
-Aplikacja desktopowa typu e-commerce stworzona w technologii WPF, umożliwiająca przeglądanie produktów, zarządzanie koszykiem oraz realizację zakupów z systemem rabatowym.
+An e-commerce desktop application built with WPF, enabling product browsing, shopping cart management, and checkout with a discount system.
 
-## 🚀 Funkcjonalności
-* **Katalog Produktów:** Przeglądanie asortymentu z dynamicznym podglądem specyfikacji technicznej i opisu.
-* **System Koszyka:** Dodawanie przedmiotów do zamówienia i podgląd sumy zakupów.
-* **Moduł Rabatowy:** Walidacja kodów promocyjnych i automatyczne przeliczanie ceny po zastosowaniu zniżki.
-* **Interfejs Użytkownika:** Intuicyjny UI z nawigacją między produktami (Poprzedni/Następny).
+## Features
+* **Product Catalog:** Browse the assortment with a dynamic preview of technical specifications and descriptions.
+* **Shopping Cart System:** Add items to the order and preview the total purchase amount.
+* **Discount Module:** Validation of promo codes and automatic price recalculation upon applying a discount.
+* **User Interface:** Intuitive UI with navigation between products (Previous/Next).
 
-## 🛠 Technologie
+## 🛠 Technologies
 * **Język:** C#
 * **Framework:** WPF (.NET)
 * **UI/UX:** XAML (Styles, Data Binding)
 
-## 💻 Uruchomienie
-1. Sklonuj repozytorium.
-2. Otwórz plik `.sln` w programie Visual Studio.
-3. Uruchom projekt przyciskiem "Start" (F5).
+## Uruchomienie
+1. Clone the repository.
+2. Open the '.sln' file in Visual Studio.
+3. Run the project by clicking the "Start" button (F5).
